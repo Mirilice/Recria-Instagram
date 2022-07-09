@@ -6,4 +6,5 @@ Desafio de projeto proposto pela DIO com o objetivo de recriar a página inicial
 
 ### Versão para mobile
 
-![Versão para mobile](mobile.png)
+<img src="Recria-Instagram/Instagram/mobile.png">
+
