@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.paginaInstagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+    margin-right: 20rem;
+    padding-left: 2px;
+}
+
+.celular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    border: 0.3cm solid black;
+    border-radius: 30px;
+    background-color: black;
+    margin: 12rem;
+}
+
+.celular img{
+    border-radius: 30px solid black;
+    border: 30px solid black;
+    max-height: 12cm;
+    max-width: 6.5cm;
+    padding-right: 5px;
+    height: auto;
+    width: auto;
+    padding-left: 50px;
+    
+}
+
+.loginCadastro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 60%;
+    height: 8cm;
+    min-height: 34rem;
+    
+}
+
+.caixaBranca {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    margin-bottom: 0.2cm;
+    font-weight: 500;
+
+
+}
+
+.caixaBranca:nth-child(1) {
+    min-height: 19rem;
+
+}
+
+.logo {
+    width: 175px;
+    height:51px;
+}
+
+.fotoPerfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 86px;
+    overflow: hidden;
+}
+
+.fotoPerfil img {
+    height: 6rem;
+}
+
+.continue {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: inherit;
+    weight: 251.865px;
+    height: 30px;
+}
+
+.remove {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.logout {
+    color: rgb(160, 160, 160);
+}
+
+.link {
+    color: #0095f6;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 10rem;
+}
+
+.iphoneesamsung {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.iphoneesamsung:nth-child(1) {
+    background-image: url('./68006a2bb372.png');
+    margin-right: 5px;
+}
+
+.iphoneesamsung:nth-child(2) {
+    background-image: url('./2f2a0c05b2f3.png');
+    margin-left: 5px;
+}
+
+/*media queries*/
+ 
+@media(max-width: 1024px) {
+    .paginaInstagram {
+        width: 90%;
+        padding: auto;
+    }
+}
+
+@media(max-width: 1030px) {
+    .paginaInstagram {
+        width: 90%;
+        padding: auto;
+    }
+}
+
+@media(max-width:720px) {
+   .celular{
+        display: none;
+    }
+   .paginaInstagram{
+        width: 100%;
+        margin:auto;
+    }
+}
